@@ -1,2 +1,2 @@
-# Basic_MEnu
+# Basic_Menu
 JavaScript_Module_Practice
