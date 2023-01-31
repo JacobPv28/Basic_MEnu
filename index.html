@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Local Food Menu</h1>
+    <form>
+      <select id="menu">
+        <option value="" selected disabled hidden>
+          Selecciona una opción del menú
+        </option>
+        <option value="1">Ice cream</option>
+        <option value="2">Hamburger</option>
+        <option value="3">Hotdog</option>
+        <option value="4">Salad</option>
+      </select>
+
+      <button id="btn" class="btn">See price</button>
+    </form>
+
+    <div id="item" class="item"></div>
+
+    <script src="javascript/Menu.js" type="module"></script>
+  </body>
+</html>
